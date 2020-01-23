@@ -396,7 +396,7 @@ enum TR_CompilationOptions
    // Available                           = 0x00000080 + 10,
    TR_FirstLevelProfiling                 = 0x00000100 + 10,
    // Available                           = 0x00000200 + 10,
-   // Available                           = 0x00000400 + 10,
+   TR_PersistLogging                      = 0x00000400 + 10,
    // Available                           = 0x00000800 + 10,
    // Available                           = 0x00001000 + 10,
    TR_DisableNewMethodOverride            = 0x00002000 + 10,

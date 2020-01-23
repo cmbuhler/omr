@@ -999,6 +999,7 @@ TR::OptionTable OMR::Options::_jitOptions[] = {
    {"paranoidOptCheck",   "O\tcheck the trees and cfgs after every optimization phase", SET_OPTION_BIT(TR_EnableParanoidOptCheck), "F"},
    {"performLookaheadAtWarmCold", "O\tallow lookahead to be performed at cold and warm", SET_OPTION_BIT(TR_PerformLookaheadAtWarmCold), "F"},
    {"perfTool", "M\tenable PerfTool", SET_OPTION_BIT(TR_PerfTool), "F", NOT_IN_SUBSET },
+   {"PersistLogging", "L\tstore logs to database", SET_OPTION_BIT(TR_PersistLogging), "F"},
    {"poisonDeadSlots",    "O\tpaints all dead slots with deadf00d", SET_OPTION_BIT(TR_PoisonDeadSlots), "F"},
    {"prepareForOSREvenIfThatDoesNothing",   "O\temit the call to prepareForOSR even if there is no slot sharing", SET_OPTION_BIT(TR_EnablePrepareForOSREvenIfThatDoesNothing), "F"},
    {"printAbsoluteTimestampInVerboseLog", "O\tPrint Absolute Timestamp in vlog", SET_OPTION_BIT(TR_PrintAbsoluteTimestampInVerboseLog), "F", NOT_IN_SUBSET},
